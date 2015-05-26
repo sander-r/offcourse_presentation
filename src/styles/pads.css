@@ -1,0 +1,9 @@
+component(pads) {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-x: center;
+  width: 100%;
+}

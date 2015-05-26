@@ -1,0 +1,17 @@
+component(pad){ 
+  font-family: NittyBold;
+  box-sizing: border-box;
+  font-size: 18px;
+  text-decoration: none;
+  border: none;
+  margin: 10px;
+  background-color: var(--betweenBaseColor);
+}
+
+.active, .pad:hover {
+  background: var(--red);
+}
+
+.autoplay {
+  margin: 5px;
+}

@@ -1,0 +1,84 @@
+@font-face {
+  font-family: NittyNormal;
+  src: url('../assets/fonts/NN.woff') format('woff');
+}
+
+@font-face {
+  font-family: NittyBold;
+  src: url('../assets/fonts/NB.woff') format('woff');
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 36px;
+  line-height: calc(30/22)rem;
+}
+
+@media (max-width: 2000px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1500px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1000px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 850px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 650px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 550px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 6px;
+  }
+}
+
+component(app){
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  font-family: NittyNormal;
+  height: 100vh;
+  background-color: var(--yellow);
+}
+
+
+button {
+  border: none;
+  font-size: 1rem;
+  background-color: var(--darkBaseColor);
+  width: 2rem;
+  height: 2rem;
+}
+
